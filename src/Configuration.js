@@ -35,7 +35,7 @@ const Configuration = {
                 style: PollingDistrictstyle
             },
             displayOverlay: true,
-            visibleByDefault: true
+            visibleByDefault: false
         },
 
         {
