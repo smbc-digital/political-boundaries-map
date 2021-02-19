@@ -1,6 +1,6 @@
 //import Leaflet from 'leaflet'
-import { wardPopup, polling_districtPopup, area_committeePopup, parliamentaryPopup, polling_stationPopup } from './Popups'
-import { PollingDistrictstyle, AreaCommitteestyle, WardAreastyle, ParliamentaryBoundarystyle } from './Styles'
+import { wardPopup, area_committeePopup, parliamentaryPopup} from './Popups'
+import { AreaCommitteestyle, WardAreastyle, ParliamentaryBoundarystyle } from './Styles'
 
 const Configuration = {
     Map: {
