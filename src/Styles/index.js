@@ -47,7 +47,7 @@ const WardAreastyle = {
 
 const ParliamentaryBoundarystyle = {
     color: '#bc80bd',
-    weight: 4,
+    weight: 2,
     opacity: 1,
     fillColor: '#bc80bd',
     fillOpacity: 0

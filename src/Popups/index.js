@@ -30,7 +30,8 @@ const area_committeePopup = (feature, layer) => {
 
 const parliamentaryPopup = (feature, layer) => {
   const content = `<div class="item"><i class="fa fa-university" aria-hidden="true"></i><p class="title">Parliamentary</p>
-  <p class="info">Parliamentary Constituency: ${feature.properties.name}</p>
+  <p class="info">Parliamentary Constituency: ${feature.properties.name_short}</p>
+  <p class="info">MP: ${feature.properties.mp_name} (${feature.properties.mp_party})<br> 
   
   </div>`
 
