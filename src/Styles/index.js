@@ -1,13 +1,3 @@
-const PollingDistrictstyle = {
-    color: '#ff0000',
-    weight: 3,
-    opacity: 1,
-    fillColor: '#ff0000',
-    fillOpacity: 0,
-    dashArray: '7,7,7',
-    dashOffset: '0'
-}
-
 function getColor_AreaCommittees(d) {
     switch (d) {
         case 'Bramhall and Cheadle Hulme South':
@@ -54,7 +44,6 @@ const ParliamentaryBoundarystyle = {
 }
 
 export {
-    PollingDistrictstyle,
     AreaCommitteestyle,
     WardAreastyle,
     ParliamentaryBoundarystyle

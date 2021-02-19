@@ -1,11 +1,3 @@
-const polling_districtPopup = (feature, layer) => {
-  const content = `<div class="item"><i class="fa fa-id-card" aria-hidden="true"></i><p class="title">Polling District</p>
-  <p class="info">Polling District: ${feature.properties.polling_name}</p>
-  </div>`
-
-  layer.bindPopup(content)
-}
-
 const wardPopup = (feature, layer) => {
   const content = `<div class="item"><i class="tag fa fa-map-marker"></i><p class="title">Ward</p>
   <p class="info">Ward: ${feature.properties.ward_name}</p>
@@ -38,19 +30,8 @@ const parliamentaryPopup = (feature, layer) => {
   layer.bindPopup(content)
 }
 
-const polling_stationPopup = (feature, circleMarker) => {
-  const content = `<div class="item"><i class="fa fa-university" aria-hidden="true"></i><p class="title">Polling Station</p>
-  <p class="info">${feature.properties.name}</p>
-  
-  </div>`
-
-  circleMarker.bindPopup(content)
-}
-
 export {
   wardPopup,
-  polling_districtPopup,
   area_committeePopup,
-  parliamentaryPopup,
-  polling_stationPopup
+  parliamentaryPopup
 }
