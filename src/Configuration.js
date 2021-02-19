@@ -8,9 +8,10 @@ const Configuration = {
         StartingZoom: 12,
         FullscreenControl: true,
         DisplayLayerControls: true,
-        DisplayGrayScale: false,
+        DisplayGrayScale: true,
         DisplayStreets: true,
-        EnableAddressSearch: true
+        EnableAddressSearch: true,
+        EnableLocateControl: true
     },
     DynamicData: [
 
